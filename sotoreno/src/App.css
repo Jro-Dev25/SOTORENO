@@ -1,0 +1,379 @@
+/* MAIN STYLING ---------------------- */
+.Sotoreno {
+  /* width: 100%; */
+  margin: 0;
+  height: '100vh';
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* GLOBAL STYLING --------------------*/
+h2,span {
+  color:rgb(6, 114, 187);
+}
+
+h3,p, a, li, label, input {
+  color:rgb( 147, 147, 147);
+}
+li {
+  list-style: none;
+  padding: 0 0 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(147, 147, 147);
+  margin: 24px 0;
+  width: 100%;
+}
+
+
+.arrow {
+  width: 50px;
+  margin: 10px 0;
+}
+
+
+.btn {
+
+}
+
+.btn_presencial {
+  
+}
+
+.agendar_btn {
+
+}
+
+.enviar_btn {
+
+}
+
+
+/* HEADER -------------------------------------------------------------------------------*/
+.Header-head { 
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: baseline;
+  padding: 24px;   
+}
+
+.titulo {
+  font-size: 2rem;
+}
+
+.titulo, h3{
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6;
+} 
+
+.Header-body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: auto;
+  padding: 0 1rem;
+}
+
+.header-top {
+  display: flex;
+
+}
+
+.header-titulo {
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  width: 100%;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+} #logo {
+  width: 60px;
+  height:auto;
+  /* padding: 0 0 100px 0; */
+
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: column;  
+  margin: 0 10px;
+}
+
+#arrow-main {
+  transform: rotate(270deg);
+  margin: 0 0 20px 0;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+}
+
+
+.main-pic {
+
+} #MainPic {
+  width: 100px;
+}
+
+
+.header-footer {}
+.nosotros-section {
+  text-align: right;
+  line-height: 1.6;
+
+
+} #nosotros {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.header-titulo {
+    text-align: left;
+
+}
+
+.header-logo {
+
+}
+
+
+
+
+
+
+
+
+
+
+/* MAIN ---------------------------*/ 
+.servicios-section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+}
+
+.servicios-container {
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+}
+.servicios-lista-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+
+} .servicios-lista-box ul {
+  
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.servicios-twoimg {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+/* TOP */
+.servicios-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto 0.5rem;
+  
+}
+
+.servicios-header img {
+  margin: 1px;
+}
+
+.servicios-body {
+  margin: 0 2px
+}
+
+.servicios-lista-box ul li {
+  list-style:square;
+}
+
+.servicios-main-img, 
+.libreria, 
+.casa7,
+.casa1,
+.casa6,
+.casa8,
+.casa2 {
+  width: 100%;
+}
+.servicios-main-img {
+  height: auto;
+
+} 
+
+.arrow-servicios {
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: rotate(145deg);
+  width: 120px;
+  height: 120px;
+}
+
+/* GALERÍA */
+.servicios-galeria {
+ padding: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER ----------------------------------------------*/
+footer {
+    text-align: left;
+} 
+
+.parent-reuniones {
+  display: flex;
+  justtify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 24px;
+
+}
+
+child-reuniones
+
+global
+
+.reuniones-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 24px;
+}
+
+
+
+.reuniones-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.reuniones-inputs, .mensaje-section {
+  display: flex;
+  flex-direction: column;
+} .reuniones-inputs, .mensaje-section input {
+  margin: 15px 0;
+}
+
+.reuniones-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 24px;
+
+  
+}
+
+.reuniones-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px; 
+
+}
+
+
+.contactanos-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  gap: 20px;
+  padding: 24px;
+}
+
+.MainLogoFooter {
+  width: 50px;
+}
+.arrow-footer {}
+.logosFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 20px;
+
+}.logoFooter {
+  width: 40px;
+}
+
+/* btn */
+.btn_presencial,
+.btn_videoconferencia {
+  border: none;
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid rgb( 147, 147, 147);
+  margin: auto 10px;
+
+}
+
+.btn_presencial {
+  color: #fff;
+  background-color: rgb(6, 116, 178);
+}
+
+.btn_videoconferencia {
+  background-color: #fff;
+  border: 1px solid rgb( 147, 147, 147);
+  color:rgb( 147, 147, 147);
+  -webkit-border-radius: 1px solid rgb(0, 0, 0);
+  -moz-border-radius: 1px solid rgb(0, 0, 0);
+  -ms-border-radius: 1px solid rgb(0, 0, 0);
+  -o-border-radius: 1px solid rgb(0, 0, 0);
+}
