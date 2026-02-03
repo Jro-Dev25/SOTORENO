@@ -1,4 +1,7 @@
 {
+  "buildCommand": "cd sotoreno && yarn build",
+  "outputDirectory": "sotoreno/dist",
+  "installCommand": "cd sotoreno && yarn install",
   "rewrites": [
     {
       "source": "/(.*)",
